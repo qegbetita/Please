@@ -53,6 +53,6 @@ else:
     image=Image.open(file)
     st.image(image,use_column_width=True)
     prediction=import_and_predict(image,model)
-    class_names=['Mild_Demented', 'Moderate_Demented', 'Non_Demented', 'Very_Mild_Demented']
+    class_names=['T_shirt', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
     string="OUTPUT : "+ class_names[np.argmax(prediction)]
     st.success(string)
