@@ -9,7 +9,7 @@ model=load_model()
 st.write("""
 # Clothing Detection"""
 )
-file=st.file_uploader("Upload a picture of any of the choices: T_shirt, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot",type=["jpg","png"])
+file=st.file_uploader("Upload a picture of any of the choices: T-shirt, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot",type=["jpg","png"])
 
 import cv2
 from PIL import Image,ImageOps
