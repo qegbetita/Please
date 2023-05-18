@@ -4,3 +4,5 @@ matplotlib==3.4.3
 scikit-learn==0.24.2
 Keras==2.6.0
 tensorflow
+tensorflow
+opencv-python-headless
